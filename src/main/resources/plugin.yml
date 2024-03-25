@@ -1,0 +1,4 @@
+name: Bedforce
+main: dev.sakkke.bedforce.Bedforce
+version: 0.1.0
+api-version: 1.20
