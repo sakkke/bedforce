@@ -7,6 +7,11 @@ It introduces a new command `/bedforce` (alias: `/bdf`), which allows players to
 bypassing the need for all players to be in bed, as long as it is night and the player executing the command is holding
 a bed.
 
+## Features
+
+- Introduces `/bedforce` command with an alias `/bdf` to instantly change the time to morning during night if the player
+is holding a bed.
+
 ## License
 
 [MIT](./LICENSE)
