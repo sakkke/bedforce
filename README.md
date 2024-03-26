@@ -18,6 +18,11 @@ is holding a bed.
 2. Place the downloaded `.jar` file into your Minecraft server's `plugins` directory.
 3. Start or restart your server.
 
+## Usage
+
+After installing this plugin, you can use the `/bedforce` (or `/bdf`) command during the night while holding a bed to
+instantly change the time to morning.
+
 ## License
 
 [MIT](./LICENSE)
