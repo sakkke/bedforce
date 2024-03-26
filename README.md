@@ -1,1 +1,5 @@
 # Bedforce
+
+## License
+
+[MIT](./LICENSE)
