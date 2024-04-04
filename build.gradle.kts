@@ -51,10 +51,7 @@ tasks.test {
 }
 
 tasks.jar {
-    from({
-        configurations.runtimeClasspath.get().filter { it.isDirectory }.map { it }
-        configurations.runtimeClasspath.get().filter { !it.isDirectory }.map { zipTree(it) }
-    })
+    from(configurations.runtimeClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
 }
 kotlin {
     jvmToolchain(17)
