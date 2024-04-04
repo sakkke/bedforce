@@ -19,7 +19,7 @@ class Bedforce: JavaPlugin() {
                 }
 
                 if (hasBed) {
-                    if (sender.world.time >= 13000) {
+                    if (sender.world.time >= 13000 || sender.world.isThundering) {
                         sender.sendMessage("Changing the time to day")
                         sender.world.time = 1000
                     } else {
