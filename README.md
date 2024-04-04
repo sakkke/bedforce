@@ -1,3 +1,5 @@
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/sakkke/bedforce/gradle.yml)
+
 # Bedforce
 
 ## Description
