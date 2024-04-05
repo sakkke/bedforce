@@ -24,7 +24,8 @@ val setVersionFromGit = tasks.register("setVersionFromGit") {
         val git = Git(repo)
         val describe = git.describe().setTags(true).call()
         if (describe != null) {
-            project.version = describe
+            val versionWithoutV = describe.removePrefix("v")
+            project.version = versionWithoutV
         } else {
             project.version = "0.1.0-SNAPSHOT"
         }
