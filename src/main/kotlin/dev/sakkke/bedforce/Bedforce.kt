@@ -11,7 +11,7 @@ class Bedforce: JavaPlugin() {
     }
 
     override fun onCommand(sender: CommandSender, cmd: Command, label: String, args: Array<String>): Boolean {
-        if (cmd.name == "bedforce" || cmd.name == "bdf") {
+        if (cmd.name == "bedforce" || cmd.name == "bdf" || cmd.name == "b") {
             if (sender is Player) {
                 val inventory = sender.inventory
                 val hasBed = inventory.contents.any { itemStack ->

@@ -3,6 +3,9 @@ main: dev.sakkke.bedforce.Bedforce
 version: 0.1.0
 api-version: 1.20
 commands:
+  b:
+    description: Change the time to morning
+    usage: /b
   bdf:
     description: Change the time to morning
     usage: /bdf
